@@ -63,3 +63,7 @@ An `autocomplete` attribute has been added to each field to indicate to browsers
 ### Mobile devices
 
 The addition of `inputmode="numeric"` and `pattern="[0-9]*"` force Android and iOS respectively to use numeric keyboards for these fields. The latter attribute additionally validates that the input is numberic, if client-side validation is available.
+
+### Internationalisation
+
+The separation of the date into individual day, month and year inputs makes it clear to how they are expected to provide the date without enforcing one particular format. The separation also removes ambiguity introduced through browser's differing implementations of the `date` input type, which can require input in an unexpected format if the user's device is misconfigured. 
