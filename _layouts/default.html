@@ -43,12 +43,14 @@
 		</footer>
 	</div>
 	<script>
-		function syncHeight() {
-			this.style.height = this.contentWindow.document.body.offsetHeight + 'px';
-		}
 		var frames = document.querySelectorAll('iframe');
-		frames.forEach(function(frame, i) { 
-			frame.addEventListener('load', syncHeight);
+		frames.forEach(function(frame, i) {
+			setTimeout(function() {
+				frame.style.height = frame.contentWindow.document.body.offsetHeight + 'px';
+			}, 50);
+			frame.addEventListener('load', function() {
+				this.style.height = this.contentWindow.document.body.offsetHeight + 'px';
+			});
 		});
 	</script>
 </body>
