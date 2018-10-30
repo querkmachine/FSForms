@@ -91,7 +91,7 @@
  */
 
 body {
-	font-family: sans-serif;
+	font-family: -apple-system, sans-serif;
 	padding: 1em;
 }
 
@@ -104,14 +104,22 @@ body {
 	line-height: inherit;
 	border: 2px solid #bbb;
 }
+	/* Error messages */
+	.a-input[aria-invalid="true"] { border-color: red; }
+	/* Input length */
 	.a-input--length-2 { max-width: 2em; }
 	.a-input--length-4 { max-width: 4em; }
 	.a-input--length-6 { max-width: 6em; }
 	.a-input--length-10 { max-width: 10em; }
 	.a-input--length-20 { max-width: 20em; }
+	/* Currency */
 	.a-input--currency { 
 		font-variant-numeric: tabular-nums;
 		font-feature-settings: 'tnum';
-		text-align: right;
+		-moz-appearance: textfield;
 	}
-	.a-input[aria-invalid="true"] { border-color: red; }
+	.a-input--currency::-webkit-outer-spin-button,
+	.a-input--currency::-webkit-inner-spin-button {
+		-webkit-appearance: none;
+		margin: 0;
+	}
