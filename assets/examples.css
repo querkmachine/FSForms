@@ -1,0 +1,117 @@
+/**
+ * Form framework pieces
+ * This framework is intended to mirror the standard approach to forms on many Felinesoft projects from mid-2018 onwards.
+ */
+
+.m-form {
+	max-width: 32rem;
+}
+
+.m-form__fieldset {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+	.m-form__fieldset::after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+
+.m-form__legend,
+.m-form__label,
+.m-form__hint,
+.m-form__error {
+	margin-bottom: .25rem;
+}
+
+.m-form__legend small,
+.m-form__label small {
+	font-size: 1em;
+	opacity: .67;
+}
+
+.m-form__legend {
+	display: table;
+	max-width: 100%;
+	padding: 0;
+	line-height: inherit;
+	overflow: hidden;
+	white-space: normal;
+}
+
+.m-form__row {
+	margin-bottom: 1.5rem;
+}
+	.m-form__row--inline {
+
+	}
+	.m-form__row--inline > .m-form__group,
+	.m-form__row--inline > .a-checkbox,
+	.m-form__row--inline > .a-radio {
+		display: inline-block;
+		margin-right: .5rem;
+	}
+
+.m-form__group {
+
+}
+
+.m-form__label {
+	display: block;
+}
+
+.m-form__hint {
+	opacity: .67;
+}
+
+.m-form__error-group {
+	margin-bottom: 1.5rem;
+	margin-left: -1rem;
+	padding-left: .75rem;
+	border-left: .25rem solid red;
+}
+	.m-form__error-group .m-form__row:last-of-type {
+		margin-bottom: 0;
+	}
+
+.m-form__error {
+	display: block;
+	color: red;
+	font-weight: 700;
+}
+	.m-form__error::before {
+		content: '\26A0';
+		margin-right: .25rem;
+	}
+
+/**
+ * Other pieces
+ * Generic styles to make the examples look nicer. This will likely be radically different on different projects.
+ */
+
+body {
+	font-family: sans-serif;
+	padding: 1em;
+}
+
+.a-input {
+	width: 100%;
+	padding: .5em;
+	font-family: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	line-height: inherit;
+	border: 2px solid #bbb;
+}
+	.a-input--length-2 { max-width: 2em; }
+	.a-input--length-4 { max-width: 4em; }
+	.a-input--length-6 { max-width: 6em; }
+	.a-input--length-10 { max-width: 10em; }
+	.a-input--length-20 { max-width: 20em; }
+	.a-input--currency { 
+		font-variant-numeric: tabular-nums;
+		font-feature-settings: 'tnum';
+		text-align: right;
+	}
+	.a-input[aria-invalid="true"] { border-color: red; }
