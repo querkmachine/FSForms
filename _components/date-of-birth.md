@@ -62,7 +62,7 @@ An `autocomplete` attribute has been added to each field to indicate to browsers
 
 ### Mobile devices
 
-The addition of `inputmode="numeric"` makes Android display a numeric keyboard for these fields. 
+The addition of `inputmode="numeric"` makes Android display a numeric keyboard for these fields. Note that the numeric keyboard does not prevent the user from entering non-numeric characters.
 
 The addition of `pattern="[0-9]*"` forces iOS into the 'telephone' keyboard mode, allowing the user to only enter the digits 0 to 9, at the exclusion of any other character. The addition of the `pattern` attribute also ensures that the input is numeric, if client-side validation is available.
 
