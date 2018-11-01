@@ -17,7 +17,7 @@ When users need to enter a memorable date, such as their date of birth.
 
 For dates relative to the current day, see the [date]({{ "/components/date" | relative_url }}) page.
 
-For expiry dates, see the [payment card]({{ "/components/payment-card" | relative_url }}) page.
+If asking for a date that needs to match the format on a specific document, such as a credit card, create an input that matches that document's format. For expiry dates, see the [payment card]({{ "/components/payment-card" | relative_url }}) page.
 
 ## Accessibility
 
