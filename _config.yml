@@ -7,8 +7,8 @@ title: Felinesoft Form Patterns
 email: kimberly.grey@felinesoft.com
 description: >- # this means to ignore newlines until "baseurl:"
   A collection of form design patterns compiled for use in Felinesoft developed websites.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/FSForms" # the subpath of your site, e.g. /blog
+url: "https://querkmachine.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 collections:
   components:
     output: true
