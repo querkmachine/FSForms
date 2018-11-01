@@ -4,7 +4,6 @@
  */
 
 .m-form {
-	max-width: 32rem;
 }
 
 .m-form__fieldset {
@@ -90,7 +89,14 @@
  * Generic styles to make the examples look nicer. This will likely be radically different on different projects.
  */
 
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
 body {
+	max-width: 32rem;
 	font-family: -apple-system, sans-serif;
 	padding: 1em;
 }
@@ -107,11 +113,11 @@ body {
 	/* Error messages */
 	.a-input[aria-invalid="true"] { border-color: red; }
 	/* Input length */
-	.a-input--length-2 { max-width: 2em; }
-	.a-input--length-4 { max-width: 4em; }
-	.a-input--length-6 { max-width: 6em; }
-	.a-input--length-10 { max-width: 10em; }
-	.a-input--length-20 { max-width: 20em; }
+	.a-input--length-2 { max-width: 3.5em; }
+	.a-input--length-4 { max-width: 5em; }
+	.a-input--length-6 { max-width: 7em; }
+	.a-input--length-10 { max-width: 11em; }
+	.a-input--length-20 { max-width: 21em; }
 	/* Currency */
 	.a-input--currency { 
 		font-variant-numeric: tabular-nums;
