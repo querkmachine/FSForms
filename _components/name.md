@@ -25,8 +25,6 @@ For the name of a company or other non-human entity, see the [free text (short)]
 
 Only ask for separate parts of a person's name if it is necessary for a specific purpose. Ideally only the given name should be required in these circumstances. 
 
-There are numerous `autocomplete` attribute values for names, including `name` (full name), `given-name`, `additional-name` (middle names), `family-name` and `nickname`.
-
 ### Validating input
 
 You should not run any specific validation on names. It is possible for names to be extremely long, short, contain numerals or special symbols and have parts missing. 
@@ -58,6 +56,10 @@ Only the given name is required. There is no legal requirement for a person to h
 The labelling of each part is purposeful. Do not use first/middle/last designators, as the components of a person's name may appear in different orders in different countries. 
 
 Exercise caution if reassembling a name that has been collected in individual parts. You won't know what order they're meant to be in. 
+
+### Autofill 
+
+There are numerous `autocomplete` attribute values for names, including `name` (full name), `given-name`, `additional-name` (middle names), `family-name` and `nickname`.
 
 ### Internationalisation
 

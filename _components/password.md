@@ -25,8 +25,6 @@ Allow users to paste into password fields. Doing so also allows the use of passw
 
 If a data breach has occurred that includes user's account data you should require the user to change their password on their next interaction with the service. In this instance, you should force the new password to differ from the previous version.
 
-The `autocomplete` attribute values `current-password` and `new-password` can autofill existing passwords and help generate new passwords respectively. Many browsers will do this even if `autocomplete` is set to `off`. 
-
 ### Validating input
 
 <figure class="iframe">
@@ -71,3 +69,11 @@ Password strength is not based on arbitrary requirements but is instead a factor
 Allowing the user to use any combination of letters, digits, symbols, spaces, punctuation, emoji and languages permits a huge variation of inputs. This assists with security and memorability. 
 
 Paradoxically, limitations to the content and length of passwords makes it easier to brute force them, as there are significantly fewer valid passwords possible. 
+
+### Autofill
+
+The `autocomplete` attribute values `current-password` and `new-password` can autofill existing passwords and help generate new passwords respectively. Many browsers will do this even if `autocomplete` is set to `off`. 
+
+### Mobile devices
+
+Devices with soft keyboards, such as smartphones and tablets, will usually unmask the most recent character the user added to a password field. This allows the user to make sure that the character they typed was correct.

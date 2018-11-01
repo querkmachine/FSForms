@@ -27,11 +27,13 @@ There are a significant number of honorifics in the UK, including common titles,
 
 Do not restrict users to a pre-defined list of options. Titles are typically only used for written communication, if a person has stated that their title is "Banana" then they probably won't mind if a letter refers to them as such. 
 
-The W3C `autocomplete` attribute is `honorific-prefix`, which expects a free text area. The `autocomplete` attribute is not guaranteed to work on a dropdown list.
-
 ### Validating input
 
 You should not run any specific validation on titles. It is possible for titles to be extremely long or short. Some people prefer not to use a title. 
+
+### Autofill
+
+The W3C `autocomplete` attribute is `honorific-prefix`, which expects a free text area. The `autocomplete` attribute is not guaranteed to work on a dropdown list.
 
 ### Internationalisation
 
