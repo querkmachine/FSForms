@@ -101,6 +101,13 @@ body {
 	padding: 1em;
 }
 
+h1,
+h2,
+h3 {
+	margin: 0;
+	margin-bottom: .5em;
+}
+
 .a-input {
 	width: 100%;
 	padding: .5em;

@@ -1,0 +1,23 @@
+---
+layout: component
+---
+<fieldset class="m-form__fieldset">
+	<legend class="m-form__legend"><h2>Direct Debit information</h2></legend>
+	<div class="m-form__row m-form__error-group">
+		<label class="m-form__label" for="AccountName">Account holder's name</label>
+		<div class="m-form__error" id="AccountName-Error">Enter a name.</div>
+		<input class="a-input" type="text" id="AccountName" autocomplete="cc-name" autocorrect="off" aria-describedby="AccountName-Error" aria-invalid="true">
+	</div>
+	<div class="m-form__row m-form__error-group">
+		<label class="m-form__label" for="AccountNumber">Account number</label>
+		<div class="m-form__hint" id="AccountNumber-Hint">Enter an 8-digit account number. If your account number is not 8 digits, contact your bank for any instructions you need to follow to make a payment.</div>
+		<div class="m-form__error" id="AccountNumber-Error">Enter a valid account number.</div>
+		<input class="a-input a-input--length-10" type="text" id="AccountNumber" aria-describedby="AccountNumber-Hint AccountNumber-Error" inputmode="numeric" minlength="8" maxlength="8" value="Foo" aria-invalid="true">
+	</div>
+	<div class="m-form__row m-form__error-group">
+		<label class="m-form__label" for="SortCode">Sort code</label>
+		<div class="m-form__hint" id="SortCode-Hint">For example, 12-34-56.</div>
+		<div class="m-form__error" id="SortCode-Error">Enter a valid sort code.</div>
+		<input class="a-input a-input--length-10" type="text" id="SortCode" aria-describedby="SortCode-Hint SortCode-Error" inputmode="numeric" minlength="8" maxlength="8" value="Bar" aria-invalid="true">
+	</div>
+</fieldset>
