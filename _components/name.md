@@ -11,7 +11,7 @@ status: wip
 
 ## When to use
 
-When taking the name of a person.
+When taking a person's name.
 
 ## When to consider something else
 
