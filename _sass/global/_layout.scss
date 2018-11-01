@@ -1,0 +1,86 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	@include size-responsive(1.2vw, 16px);
+}
+
+body {
+	border-top: .5rem solid #EF663B;
+	color: #202020;
+	font-family: map(typography, body);
+}
+
+a {
+	color: map(palette, link, default);
+	text-decoration: none;
+	&:hover,
+	&:focus {
+		color: map(palette, link, hover);
+		text-decoration: underline;
+	}
+}
+
+.wrapper {
+	width: 92%;
+	max-width: 50rem;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.navigation {
+	@include lead-normal;
+	margin-top: 3rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	h2 {
+		@include hidden;
+		margin-bottom: 1em;
+	}
+	h3 {
+		margin-top: 2em;
+		margin-bottom: 1em;
+	}
+	ul {
+		display: grid;
+		grid-gap: 1rem;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+		padding: 0;
+		list-style-type: none;
+		@media only screen and (min-width: 32rem) {
+			grid-template-columns: repeat(2, 1fr);
+		}
+		@media only screen and (min-width: 42rem) {
+			grid-template-columns: repeat(3, 1fr);
+		}
+	}
+	li {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 1em;
+		border: 1px solid map(palette, neutral, lightest);
+		text-align: center;
+	}
+	a {
+		font-size: 1em;
+	}
+}
+
+.masthead {
+
+}
+
+.footer {
+	@include size-small;
+	@include lead-normal;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	text-align: center;
+}

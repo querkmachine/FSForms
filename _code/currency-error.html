@@ -1,0 +1,9 @@
+---
+layout: component
+---
+<div class="m-form__row m-form__error-group">
+	<label class="m-form__label" for="Currency">Gross income</label>
+	<div class="m-form__hint" id="Currency-Hint">For example, 25.00. Exclude the currency symbol.</div>
+	<div class="m-form__error" id="Currency-Error">Enter a value greater than or equal to 0.</div>
+	<input class="a-input a-input--length-6 a-input--currency" type="number" step="0.01" min="0" id="Currency" aria-describedby="Currency-Hint Currency-Error" value="-25" aria-invalid="true">
+</div>

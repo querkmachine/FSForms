@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+	{% seo %}
+</head>
+<body>
+	<div class="wrapper">
+		<main class="content" role="main">
+			<h1>{{ page.title }}</h1>
+			{{ content }}
+		</main>
+		<nav class="navigation" role="navigation">
+			<h2>Navigation</h2>
+			<h3>Best practices</h3>
+			<ul>
+				{% for item in site.docs %}
+				<li>
+					<a href="{{ item.url | prepend: site.baseurl }}">
+						{{ item.title }}
+					</a>
+				</li>
+				{% endfor %}
+			</ul>
+			<h3>Form patterns</h3>
+			<ul>
+				{% for item in site.components %}
+				<li>
+					<a href="{{ item.url | prepend: site.baseurl }}">
+						{{ item.title }}
+					</a>
+				</li>
+				{% endfor %}
+			</ul>
+		</nav>
+		<footer class="footer" role="contentinfo">
+			{{ site.description }}<br>
+			Built on <a href="https://jekyllrb.com">Jekyll</a>. 
+			Make or suggest changes on <a href="https://github.com/querkmachine/FSFrontEndDocs">the GitHub repo</a>.
+		</footer>
+	</div>
+	<script>
+		var frames = document.querySelectorAll('iframe');
+		frames.forEach(function(frame, i) {
+			setTimeout(function() {
+				frame.style.height = frame.contentWindow.document.body.offsetHeight + 'px';
+			}, 50);
+			frame.addEventListener('load', function() {
+				this.style.height = this.contentWindow.document.body.offsetHeight + 'px';
+			});
+		});
+	</script>
+</body>
+</html>

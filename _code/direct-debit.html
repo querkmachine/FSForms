@@ -1,0 +1,20 @@
+---
+layout: component
+---
+<fieldset class="m-form__fieldset">
+	<legend class="m-form__legend"><h2>Direct Debit information</h2></legend>
+	<div class="m-form__row">
+		<label class="m-form__label" for="AccountName">Account holder's name</label>
+		<input class="a-input" type="text" id="AccountName" autocomplete="cc-name" autocorrect="off">
+	</div>
+	<div class="m-form__row">
+		<label class="m-form__label" for="AccountNumber">Account number</label>
+		<div class="m-form__hint" id="AccountNumber-Hint">Enter an 8-digit account number. If your account number is not 8 digits, contact your bank for any instructions you need to follow to make a payment.</div>
+		<input class="a-input a-input--length-10" type="text" id="AccountNumber" aria-describedby="AccountNumber-Hint" inputmode="numeric" minlength="8" maxlength="8">
+	</div>
+	<div class="m-form__row">
+		<label class="m-form__label" for="SortCode">Sort code</label>
+		<div class="m-form__hint" id="SortCode-Hint">For example, 12-34-56.</div>
+		<input class="a-input a-input--length-10" type="text" id="SortCode" aria-describedby="SortCode-Hint" inputmode="numeric" minlength="8" maxlength="8">
+	</div>
+</fieldset>

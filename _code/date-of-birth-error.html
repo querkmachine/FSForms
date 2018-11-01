@@ -1,0 +1,24 @@
+---
+layout: component
+---
+<div class="m-form__error-group">
+	<fieldset class="m-form__fieldset">
+		<legend class="m-form__legend">Date of birth</legend>
+		<div class="m-form__hint" id="DateOfBirth-Hint">For example, 22 9 1991</div>
+		<div class="m-form__error" id="DateOfBirth-Error">Please enter a date in the past.</div>
+		<div class="m-form__row m-form__row--inline">
+			<div class="m-form__group">
+				<label class="m-form__label" for="DateOfBirthDay">Day</label>
+				<input class="a-input a-input--length-2" type="text" id="DateOfBirthDay" maxlength="2" inputmode="numeric" pattern="[0-9]*" autocomplete="bday-date" aria-describedby="DateOfBirth-Hint DateOfBirth-Error" value="30">
+			</div>
+			<div class="m-form__group">
+				<label class="m-form__label" for="DateOfBirthMonth">Month</label>
+				<input class="a-input a-input--length-2" type="text" id="DateOfBirthMonth" maxlength="2" inputmode="numeric" pattern="[0-9]*" autocomplete="bday-month" aria-describedby="DateOfBirth-Hint DateOfBirth-Error" value="10">
+			</div>
+			<div class="m-form__group">
+				<label class="m-form__label" for="DateOfBirthYear">Year</label>
+				<input class="a-input a-input--length-4" type="text" id="DateOfBirthYear" maxlength="4" inputmode="numeric" pattern="[0-9]*" autocomplete="bday-year" aria-describedby="DateOfBirth-Hint DateOfBirth-Error" value="2024" aria-invalid="true">
+			</div>
+		</div>
+	</fieldset>
+</div>
