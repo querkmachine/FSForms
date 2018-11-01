@@ -61,6 +61,10 @@ Exercise caution if reassembling a name that has been collected in individual pa
 
 There are numerous `autocomplete` attribute values for names, including `name` (full name), `given-name`, `additional-name` (middle names), `family-name` and `nickname`.
 
+### Mobile devices
+
+The nonstandard `autocorrect` attribute setting disables spelling and grammar correction on Safari, which is usually undesirable on name fields. 
+
 ### Internationalisation
 
 Single input name fields are used on official documentation in some countries, such as passports and birth certificates. Do not assume that a name will be split into distinct first/middle/last name fields. 

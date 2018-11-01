@@ -45,6 +45,10 @@ To check that currency is valid, make sure that:
 
 Don't enforce the number of decimal places as having to be exactly two, the user may wish to enter '20' when you expect '20.00'. Their input is not wrong, so don't punish them for providing information in that format. 
 
+### Mobile devices
+
+Although set to `type="number"`, neither iOS nor Android prevent the user from entering non-numerical values. 
+
 ### Internationalisation
 
 Different countries have different methods of writing currency values. These differences will be automatically activated by the browser depending on the user's configured locale. Browsers will usually normalise the value of a `number` input type to remove thousands separators and use a decimal period when submitting to the server.

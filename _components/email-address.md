@@ -69,3 +69,5 @@ Using `autocomplete="email"` tells the browser to autofill the field with the us
 ### Mobile devices
 
 Devices with soft keyboards will normally show a context appropriate keyboard for email addresses. This is specifically triggered by the `type="email"` attribute.
+
+The nonstandard `autocorrect` attribute setting disables spelling and grammar correction on Safari, which is usually undesirable on email addresses. 
