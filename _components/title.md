@@ -5,7 +5,9 @@ status: wip
 ---
 
 <figure class="iframe">
-<figcaption class="iframe__label">Example</figcaption>
+<figcaption class="iframe__label">
+Example
+</figcaption>
 <iframe class="iframe__frame" src="{{ "/example/title" | relative_url }}" width="100%" height="300"></iframe>
 </figure>
 

@@ -5,7 +5,9 @@ status: wip
 ---
 
 <figure class="iframe">
-<figcaption class="iframe__label">Example</figcaption>
+<figcaption class="iframe__label">
+Example
+</figcaption>
 <iframe class="iframe__frame" src="{{ "/example/direct-debit" | relative_url }}" width="100%" height="300"></iframe>
 </figure>
 
@@ -36,7 +38,9 @@ It is a requirement to display the Direct Debit logo and [Direct Debit Guarantee
 ### Validating input
 
 <figure class="iframe">
-<figcaption class="iframe__label">Error state</figcaption>
+<figcaption class="iframe__label">
+Error state
+</figcaption>
 <iframe class="iframe__frame" src="{{ "/example/direct-debit-error" | relative_url }}" width="100%" height="300"></iframe>
 </figure>
 
@@ -57,7 +61,9 @@ For the account holder's name, only check that the field is populated. Validatin
 If there is an error with the transaction as a whole, such as a server error causing it to fail, or an error of indetermine cause, there is an alternative error style available that highlights the whole form.
 
 <figure class="iframe">
-<figcaption class="iframe__label">Transaction error state</figcaption>
+<figcaption class="iframe__label">
+Transaction error state
+</figcaption>
 <iframe class="iframe__frame" src="{{ "/example/direct-debit-error-alt" | relative_url }}" width="100%" height="300"></iframe>
 </figure>
 

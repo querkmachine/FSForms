@@ -5,7 +5,9 @@ status: wip
 ---
 
 <figure class="iframe">
-<figcaption class="iframe__label">Example</figcaption>
+<figcaption class="iframe__label">
+Example
+</figcaption>
 <iframe class="iframe__frame" src="{{ "/example/date" | relative_url }}" width="100%" height="300"></iframe>
 </figure>
 
@@ -33,6 +35,13 @@ The inputs are sized appropriate to the values expected, indicating to the user 
 
 ### Validating input
 
+<figure class="iframe">
+<figcaption class="iframe__label">
+Error state
+</figcaption>
+<iframe class="iframe__frame" src="{{ "/example/date-error" | relative_url }}" width="100%" height="300"></iframe>
+</figure>
+
 To check that dates are valid, make sure that:
 
 * The date is real, for example, not 2018-02-31.
@@ -40,13 +49,25 @@ To check that dates are valid, make sure that:
 * Future dates are in the future. 
 * The date is not prior to an allowed range (if applicable).
 * The date is not after an allowed range (if applicable).
-* That an 'after' date occurs after a 'before' date when asking for a range. 
 
 The HTML date input always returns the value in the [ISO 8601](https://www.iso.org/standard/40874.html) format of `YYYY-MM-DD`, regardless of the user's locale settings. The input `value` also expects dates to be in this format. 
+
+### Date ranges
+
+<figure class="iframe">
+<figcaption class="iframe__label">
+Asking for a date range
+</figcaption>
+<iframe class="iframe__frame" src="{{ "/example/date-range" | relative_url }}" width="100%" height="300"></iframe>
+</figure>
+
+Ensure that the 'end' date occurs after a 'start' date when asking for a range. 
 
 ### Custom calendar controls
 
 Custom calendar controls (or 'datepickers') should be used with caution as they deviate from the user's standard means of inputting a date and may override native controls on the operating system. They also introduce significant accessibility hurdles that need to be overcome in order for the control to be usable by assistive technologies. 
+
+Custom calendar controls are not guaranteed to return an input's results in ISO format, potentially requiring backend changes to manually parse and validate values.
 
 Do not make a calendar control the only way for a user to select a date. Provide an input for the user to type into too.
 
@@ -57,6 +78,8 @@ Google Chrome has historically been inconsistent when determining date input for
 Internet Explorer and Safari on macOS do not support the date input type, however Safari on iOS does.
 
 Some devices signal support for date inputs but do not reveal the associated controls or validate values correctly. This behaviour can be detected by trying to set the value of the input to something obviously invalid (such as "This is not a date"). If the input allows the value to be set, it does not support the date input correctly.
+
+Note that some operating systems provide a "clear" option on their datepickers. **This does not clear the input.** This returns the input to the `value` it was set to before the user manipulated it, which is not necessarily an empty value.
 
 ### Internationalisation
 

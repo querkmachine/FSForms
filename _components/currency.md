@@ -5,7 +5,9 @@ status: wip
 ---
 
 <figure class="iframe">
-<figcaption class="iframe__label">Example</figcaption>
+<figcaption class="iframe__label">
+Example
+</figcaption>
 <iframe class="iframe__frame" src="{{ "/example/currency" | relative_url }}" width="100%" height="300"></iframe>
 </figure>
 
@@ -30,7 +32,9 @@ If the user is entering values that will be compared to other values, aligning v
 ### Validating input
 
 <figure class="iframe">
-<figcaption class="iframe__label">Error state</figcaption>
+<figcaption class="iframe__label">
+Error state
+</figcaption>
 <iframe class="iframe__frame" src="{{ "/example/currency-error" | relative_url }}" width="100%" height="300"></iframe>
 </figure>
 

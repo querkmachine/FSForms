@@ -5,7 +5,9 @@ status: wip
 ---
 
 <figure class="iframe">
-<figcaption class="iframe__label">Example</figcaption>
+<figcaption class="iframe__label">
+Example
+</figcaption>
 <iframe class="iframe__frame" src="{{ "/example/date-of-birth" | relative_url }}" width="100%" height="300"></iframe>
 </figure>
 
@@ -40,7 +42,9 @@ The fieldset includes a hint line giving an example of the expected format.
 ### Validating input
 
 <figure class="iframe">
-<figcaption class="iframe__label">Error state</figcaption>
+<figcaption class="iframe__label">
+Error state
+</figcaption>
 <iframe class="iframe__frame" src="{{ "/example/date-of-birth-error" | relative_url }}" width="100%" height="300"></iframe>
 </figure>
 
