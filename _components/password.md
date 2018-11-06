@@ -5,7 +5,9 @@ status: wip
 ---
 
 <figure class="iframe">
-<figcaption class="iframe__label">Example</figcaption>
+<figcaption class="iframe__label">
+Example
+</figcaption>
 <iframe class="iframe__frame" src="{{ "/example/password" | relative_url }}" width="100%" height="300"></iframe>
 </figure>
 
@@ -28,7 +30,9 @@ If a data breach has occurred that includes user's account data you should requi
 ### Validating input
 
 <figure class="iframe">
-<figcaption class="iframe__label">Error state</figcaption>
+<figcaption class="iframe__label">
+Error state
+</figcaption>
 <iframe class="iframe__frame" src="{{ "/example/password-error" | relative_url }}" width="100%" height="300"></iframe>
 </figure>
 
@@ -41,7 +45,9 @@ Do not validate the input for an existing password. Password policies may change
 ### Creating a new password
 
 <figure class="iframe">
-<figcaption class="iframe__label">Creating a new password</figcaption>
+<figcaption class="iframe__label">
+Creating a new password
+</figcaption>
 <iframe class="iframe__frame" src="{{ "/example/password-new" | relative_url }}" width="100%" height="300"></iframe>
 </figure>
 
@@ -54,7 +60,9 @@ Unmasking can be achieved in JavaScript by changing the input to the text `type`
 ### Changing an existing password
 
 <figure class="iframe">
-<figcaption class="iframe__label">Changing an existing password</figcaption>
+<figcaption class="iframe__label">
+Changing an existing password
+</figcaption>
 <iframe class="iframe__frame" src="{{ "/example/password-change" | relative_url }}" width="100%" height="300"></iframe>
 </figure> 
 

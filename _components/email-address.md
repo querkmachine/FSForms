@@ -5,7 +5,9 @@ status: wip
 ---
 
 <figure class="iframe">
-<figcaption class="iframe__label">Example</figcaption>
+<figcaption class="iframe__label">
+Example
+</figcaption>
 <iframe class="iframe__frame" src="{{ "/example/email-address" | relative_url }}" width="100%" height="300"></iframe>
 </figure>
 
@@ -30,7 +32,9 @@ Allow the user to paste their email address from elsewhere. This helps ensure th
 ### Validating input
 
 <figure class="iframe">
-<figcaption class="iframe__label">Error state</figcaption>
+<figcaption class="iframe__label">
+Error state
+</figcaption>
 <iframe class="iframe__frame" src="{{ "/example/email-address-error" | relative_url }}" width="100%" height="300"></iframe>
 </figure>
 

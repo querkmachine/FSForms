@@ -5,7 +5,9 @@ status: wip
 ---
 
 <figure class="iframe">
-<figcaption class="iframe__label">Example</figcaption>
+<figcaption class="iframe__label">
+Example
+</figcaption>
 <iframe class="iframe__frame" src="{{ "/example/name" | relative_url }}" width="100%" height="300"></iframe>
 </figure>
 
@@ -36,7 +38,9 @@ Many individuals use names that differ from their legal name; including those wi
 In instances where you require the collection of a legal name, it is good form to additionally allow the user to give a preferred name. 
 
 <figure class="iframe">
-<figcaption class="iframe__label">Asking for a preferred name</figcaption>
+<figcaption class="iframe__label">
+Asking for a preferred name
+</figcaption>
 <iframe class="iframe__frame" src="{{ "/example/name-preferred" | relative_url }}" width="100%" height="300"></iframe>
 </figure>
 
@@ -47,7 +51,9 @@ The preferred name should be used in all situations where the legal name is not 
 Sometimes it is necessary to collect a name split into multiple parts. 
 
 <figure class="iframe">
-<figcaption class="iframe__label">Multiple name fields</figcaption>
+<figcaption class="iframe__label">
+Multiple name fields
+</figcaption>
 <iframe class="iframe__frame" src="{{ "/example/name-split" | relative_url }}" width="100%" height="300"></iframe>
 </figure>
 
