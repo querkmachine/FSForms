@@ -137,6 +137,18 @@ h3 {
 		margin: 0;
 	}
 
+.a-textarea {
+	width: 100%;
+	height: 10rem;
+	padding: .5em;
+	font-family: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	line-height: inherit;
+	border: 2px solid #bbb;
+	resize: vertical;
+}
+
 .a-checkbox {
 	padding-left: 1.5rem;
 }
@@ -161,3 +173,18 @@ h3 {
 	.a-radio__input[aria-invalid="true"] { outline: 2px solid red; }
 	.a-radio__label {}
 	.a-radio__hint { opacity: .67; }
+
+.a-select {
+	width: 100%;
+	padding: .5em;
+	font-family: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	line-height: inherit;
+	border: 2px solid #bbb;
+	border-radius: 0;
+	background: none;
+	-webkit-appearance: textfield;
+	-moz-appearance: textfield;
+	appearance: textfield;
+}

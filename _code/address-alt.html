@@ -1,0 +1,24 @@
+---
+layout: component
+---
+<fieldset class="m-form__fieldset">
+	<legend class="m-form__legend"><h2>Postal address</h2></legend>
+	<div class="m-form__row">
+		<label class="m-form__label" for="AddressLine">Street address</label>
+		<input class="a-input" type="text" id="AddressLine" autocomplete="address-line1" value="The Quorum, Bond Street South">
+	</div>
+	<div class="m-form__row">
+		<label class="m-form__label" for="City">Town or city</label>
+		<input class="a-input" type="text" id="City" autocomplete="address-level1" value="Bristol">
+	</div>
+	<div class="m-form__row">
+		<label class="m-form__label" for="Postcode">Postal code</label>
+		<input class="a-input a-input--length-10" type="text" id="Postcode" autocomplete="postal-code" value="BS1 3AE">
+	</div>
+	<div class="m-form__row">
+		<label class="m-form__label" for="Country">Country</label>
+		<select class="a-select" id="Country" autocomplete="country">
+			<option value="GB">United Kingdom</option>
+		</select>
+	</div>
+</fieldset>
