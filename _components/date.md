@@ -50,6 +50,8 @@ To check that dates are valid, make sure that:
 * The date is not prior to an allowed range (if applicable).
 * The date is not after an allowed range (if applicable).
 
+Validate the date as a whole, not the day, month and year separately. You can often do this by trying to create a date object with the inputs and seeing whether it returns an error or not.
+
 The HTML date input always returns the value in the [ISO 8601](https://www.iso.org/standard/40874.html) format of `YYYY-MM-DD`, regardless of the user's locale settings. The input `value` also expects dates to be in this format. 
 
 ### Date ranges
