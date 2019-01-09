@@ -27,6 +27,8 @@ For the name of a company or other non-human entity, see the [free text (short)]
 
 Only ask for separate parts of a person's name if it is necessary for a specific purpose. Ideally only the given name should be required in these circumstances. 
 
+You should not restrict the user's ability to change their name. If for some reason you require they go through a manual process or audit to do so, consider allowing them to set an always editable preferred name. 
+
 ### Validating input
 
 You should not run any specific validation on names. It is possible for names to be extremely long, short, contain numerals or special symbols and have parts missing. 
@@ -44,7 +46,7 @@ Asking for a preferred name
 <iframe class="iframe__frame" src="{{ "/example/name-preferred" | relative_url }}" width="100%" height="300"></iframe>
 </figure>
 
-The preferred name should be used in all situations where the legal name is not required, such as website messaging, letterheads and customer support communications. 
+The preferred name should be used in all situations where the legal name is not required, such as website messaging, public posts, and customer support communications. 
 
 ### Using multiple fields
 
@@ -86,7 +88,7 @@ Some examples of naming customs and countries where they are common:
 |Given name|Bhutan, Indonesia, Myanmar|
 |Given name + family name|Bangladesh, Canada, India, Iran, Israel, Kazakhstan, Pakistan, UK, US, most of Western Europe|
 |Family name + given name|Cambodia, China, Japan, North Korea, South Korea, Vietnam|
-|Given name + patronymic|Iceland, Malaysia|
+|Given name + patronymic|Iceland, Malaysia (may insert other non-name words between names)|
 |Given name + clan name|Mongolia|
 |Clan name + given name|Sri Lanka|
 |Given name + patronymic + family name|Belarus, Bulgaria, Greece, Russia, Ukraine|
