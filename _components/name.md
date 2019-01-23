@@ -98,4 +98,4 @@ Below are some examples of naming customs and countries where they are common. M
 |Given name + mother's surname + father's surname|Angola, Brazil, Portugal|
 |Given name + father's name + grandfather's name (+ optional family name)|Algeria, Iraq, Egypt, Libya, Morocco, Oman, Saudi Arabia, Yemen|
 
-In some of these countries, incorrectly parsing a person's name into a given name and surname is considered bad practice. 
+In some of these countries, incorrectly parsing a person's name into a given name and surname is considered bad practice. In others, referring to a person by their patronym or matronym is considered rude.
