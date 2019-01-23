@@ -1,0 +1,59 @@
+---
+layout: component
+---
+<fieldset class="m-form__fieldset">
+	<legend class="m-form__legend"><h2>Postal address</h2></legend>
+	<div class="m-form__row">
+		<label class="m-form__label" for="AddressLine1">Address line 1</label>
+		<div class="m-form__hint" id="AddressLine1-Hint">First line of street address. This does not map directly to any specific type of data.</div>
+		<input class="a-input" type="text" id="AddressLine1" autocomplete="address-line1" aria-describedby="AddressLine1-Hint">
+	</div>
+	<div class="m-form__row">
+		<label class="m-form__label" for="AddressLine2">Address line 2</label>
+		<div class="m-form__hint" id="AddressLine1-Hint">Second line of street address. This does not map directly to any specific type of data.</div>
+		<input class="a-input" type="text" id="AddressLine2" autocomplete="address-line2" aria-describedby="AddressLine2-Hint">
+	</div>
+	<div class="m-form__row">
+		<label class="m-form__label" for="AddressLine3">Address line 3</label>
+		<div class="m-form__hint" id="AddressLine3-Hint">Third line of street address. This does not map directly to any specific type of data.</div>
+		<input class="a-input" type="text" id="AddressLine3" autocomplete="address-line3" aria-describedby="AddressLine3-Hint">
+	</div>
+	<div class="m-form__row">
+		<label class="m-form__label" for="AddressLevel4">Address level 4</label>
+		<div class="m-form__hint" id="AddressLevel4-Hint">Narrowest administrative division (e.g. parish). Rarely used.</div>
+		<input class="a-input" type="text" id="AddressLevel4" autocomplete="address-level4" aria-describedby="AddressLevel4-Hint">
+	</div>
+	<div class="m-form__row">
+		<label class="m-form__label" for="AddressLevel3">Address level 3</label>
+		<div class="m-form__hint" id="AddressLevel3-Hint">Next narrowest administrative division (e.g. district).</div>
+		<input class="a-input" type="text" id="AddressLevel3" autocomplete="address-level3" aria-describedby="AddressLevel3-Hint">
+	</div>
+	<div class="m-form__row">
+		<label class="m-form__label" for="AddressLevel2">Address level 2</label>
+		<div class="m-form__hint" id="AddressLevel2-Hint">Next narrowest administrative division (e.g. town, city).</div>
+		<input class="a-input" type="text" id="AddressLevel2" autocomplete="address-level2" aria-describedby="AddressLevel2-Hint">
+	</div>
+	<div class="m-form__row">
+		<label class="m-form__label" for="AddressLevel1">Address level 1</label>
+		<div class="m-form__hint" id="AddressLevel1-Hint">Broadest administrative division (e.g. state, province, county, canton).</div>
+		<input class="a-input" type="text" id="AddressLevel1" autocomplete="address-level1" aria-describedby="AddressLevel1-Hint">
+	</div>
+	<div class="m-form__row">
+		<label class="m-form__label" for="Postcode">Postal code</label>
+		<div class="m-form__hint" id="Postcode-Hint">e.g. Postcode, ZIP code</div>
+		<input class="a-input a-input--length-10" type="text" id="Postcode" autocomplete="postal-code" aria-describedby="Postcode-Hint">
+	</div>
+	<div class="m-form__row">
+		<label class="m-form__label" for="CountryText">Country (text input)</label>
+		<div class="m-form__hint" id="CountryText-Hint">Use this <code>autocomplete</code> value if the entry method is free text.</div>
+		<input class="a-input" type="text" id="CountryText" autocomplete="country-name" aria-describedby="CountryText-Hint">
+	</div>
+	<!-- OR -->
+	<div class="m-form__row">
+		<label class="m-form__label" for="Country">Country (dropdown)</label>
+		<div class="m-form__hint" id="Country-Hint">Use this <code>autocomplete</code> value if the entry method restricts possibilities. Available values must match ISO 3166-1-alpha-2 country code specification.</div>
+		<select class="a-select" id="Country" autocomplete="country" aria-describedby="Country-Hint">
+			<option value="GB">United Kingdom</option>
+		</select>
+	</div>
+</fieldset>
