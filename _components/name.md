@@ -83,6 +83,8 @@ In some cultures it is common for the family name to be placed before the given 
 
 Some cultures may commonly insert extraneous words between components of the name. These words are often contextually important, providing context for other parts of the name, whilst not being part of the name itself. For example in Arabic naming conventions a man may be called Ahmad bin Tanvir (translated, "Ahmad, son of Tanvir", Tanvir being a patronym), Ahmad al-Tammar ("Ahmad, the seller of dates"), Ahmad Al Saud ("Ahmad, of the family Saud"), or any combination therein—Ahmad al-Tammar bin Tanvir Al Saud. 
 
+Arabic naming convention has some other quirks. For example, the name Muhammad is so commonly used that it is commonplace to use the person's second name in everyday life, with Muhammad either shortened or omitted. Conversely the name Abdul (meaning "servant of") should *always* be qualified with a second name and not given just as Abdul. 
+
 Below are some examples of naming customs and countries where they are common. Multiple different systems may be common within the same country. 
 
 |Format|Example countries|
