@@ -25,7 +25,7 @@ We have used the `number` input type to provide the benefits of easy numerical (
 
 The inputs are sized appropriate to the values expected, indicating to the user that the input should be relatively short.
 
-Allow the user to use the thousands separator when entering large values. Allowing the digits to be visually separated allows the user to more easily validate that their input is correct. This is called [subitizing](https://en.wikipedia.org/wiki/Subitizing).
+Allow the user to use the thousands separator when entering large values. Visually separating groups of digits allows the user to more easily validate that their input is correct. This is called [subitizing](https://en.wikipedia.org/wiki/Subitizing).
 
 If the user is entering values that will be compared to other values, aligning values to the right and using tabulated (fixed width) figures can aid with scannability. 
 

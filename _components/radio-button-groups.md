@@ -39,7 +39,7 @@ Order radio buttons alphabetically unless there is good reason not to do so.
 
 Do not select an option by default. This makes it more likely that users will forget to select an option or submit incorrect information.
 
-If the user should be able to select none of the options in a radio button group, provide an option that indicates this is the case, such as 'none of the above' or 'prefer not to say'. Radio button groups cannot be cleared by the user, rendering it difficult for them to correct if they select an option when they didn't intend to. 
+If the user should be able to select none of the options in a radio button group (aka, the question is optional), provide an option that indicates this is the case, such as 'none of the above' or 'prefer not to say'. Radio button groups cannot be cleared by the user, making it impossible for them to correct if they select an option when they didn't intend to. 
 
 ### Validating input
 
