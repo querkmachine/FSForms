@@ -91,11 +91,13 @@ Below are some examples of naming customs and countries where they are common. M
 |:-|:-|
 |Given name|Bhutan, Indonesia, Myanmar|
 |Given name + family name|Bangladesh, Canada, India, Iran, Israel, Kazakhstan, Pakistan, UK, US, most of Western Europe|
-|Family name + given name|Cambodia, China, Japan, North Korea, South Korea, Vietnam|
-|Given name + patronym|Iceland, Malaysia|
+|Family name + given name|Cambodia, China, Hungary, Japan, North Korea, South Korea, Vietnam|
+|Given name + patronym|Malaysia|
+|Given name + gendered patronym|Iceland|
 |Given name + clan name|Mongolia|
 |Clan name + given name|Sri Lanka|
-|Given name + patronym + family name|Belarus, Bulgaria, Greece, Russia, Ukraine|
+|Given name + patronym + family name|Bulgaria, Greece|
+|Given name + gendered patronym + family name|Belarus, Kazakhstan, Russia, Tajikistan, Turkmenistan, Ukraine, Uzbekistan|
 |Given name + father's surname + mother's surname (+ optional grandparent's names, ad infinitum)|Mexico, Spain, most of South America|
 |Given name + mother's surname + father's surname|Angola, Brazil, Portugal|
 |Given name + father's name + grandfather's name (+ optional family name)|Algeria, Iraq, Egypt, Libya, Morocco, Oman, Saudi Arabia, Yemen|

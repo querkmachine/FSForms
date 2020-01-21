@@ -7,7 +7,7 @@ status: wip
 "One thing per page" is essentially what it says: That forms should be broken down into smaller steps to such a degree that each page only concerns itself with a single piece of information. 
 
 <aside class="aside aside--correction">
-One thing per page only applies to processes, such as registration, checkout or applications. For more 'static' forms (such as an edit profile page) then you don't need to abide by one thing per page... but still don't just dump everything onto one page.
+One thing per page only applies to processes, such as registration, checkout or applications. For more 'static' forms (such as an edit profile page) then you don't need to abide by one thing per page... but still don't just dump everything onto one page because you can.
 </aside>
 
 ### What should be a page?
@@ -135,7 +135,7 @@ Mobile-first design encourages optimisation to the bare essentials. One thing pe
 
 The main issues with the one thing per page methodology are technical.
 
-One thing per page requires storing the user's inputs across multiple pages without necessarily storing them to a database or CRM system. The user should be able to add, remove and amend that information all the way up until they confirm the order after the review step. It will need to record all of the user's choices, even those that ultimately be discarded and have no effect on the end result, in case the user wants to amend that information. 
+One thing per page requires storing the user's inputs across multiple pages without necessarily storing them to a database or CRM system. The user should be able to add, remove and amend that information all the way up until they confirm the order after the review step. It will need to record all of the user's choices, even those that will ultimately be discarded and have no effect on the end result, in case the user wants to amend that information. 
 
 This requires the temporary, server-side storage of a hefty amount of data, in a format that can be read back into the page on-demand. Developers need to consider how long this information should be stored and when it should be purged—particularly as it is likely to contain sensitive personal information. 
 
